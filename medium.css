@@ -247,3 +247,48 @@ p img{
     transform: translateY(0);
   }
 }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+#navbar{
+    font-size: smaller;
+}
+#stayCurious h1{
+font-size: 2em;
+margin-top: 0;
+margin-bottom: 0;
+}
+#stayCurious h6{
+    font-size: 0.5em;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+#button{
+   font-size: 0.2em;
+}
+header{
+    height: 50%;
+}
+#yellowBackground{
+    padding: 0;
+}
+#yellowBackground svg{
+    height: 50%;
+}
+.numberOfArticle p{
+    font-size: 1em;
+    width: 70%;
+    margin: 0;
+}
+.textOfArticle h6{
+font-size: 0.35em;
+}
+.textOfArticle h3{
+font-size: 0.7em;
+}
+.textOfArticle p{
+font-size: 0.2em;
+   }
+   section h6,section h4,section p{
+ font-size: smaller;
+}
+}

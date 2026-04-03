@@ -279,11 +279,15 @@ header{
     width: 70%;
     margin: 0;
 }
+.textOfArticle{
+    display: flex;
+    justify-content: space-between;
+}
 .textOfArticle h6{
-font-size: 0.35em;
+font-size: 0.25em;
 }
 .textOfArticle h3{
-font-size: 0.7em;
+font-size: 0.3em;
 }
 .textOfArticle p{
 font-size: 0.2em;

@@ -5472,5 +5472,30 @@
         </div>
         </div>
     </main>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const navbar = document.getElementById("bacgroundBlack");
+  if (navbar) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 80) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  }
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const navbar = document.getElementById("navbar");
+  if (navbar) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 80) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  }
+});</script>
     </body>
 </html>

@@ -24,6 +24,16 @@ main{
     border-bottom-color: rgb(4, 4, 4);
     position: sticky;
     top: 0;
+    z-index: 999;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease, padding 0.4s ease;
+}
+#navbar.scrolled {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+#bacgroundBlack.scrolled{
+    background-color: #1a8917;
 }
 #bacgroundBlack{
     background-color: black;
@@ -247,6 +257,7 @@ p img{
     transform: translateY(0);
   }
 }
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
 #navbar{
     font-size: smaller;
